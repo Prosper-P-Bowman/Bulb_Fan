@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="./Script.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./index.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+
+        <div class="main">
+            <div class="minor">
+                <div class="light">
+                    <i id="bulb" class="fa fa-lightbulb-o"></i>
+                </div>
+                <div class="battery">
+                    <p>Bulb is off</p>
+                    <i id="fafa" class="fa fa-battery-full"></i>
+                </div>
+                <div class="connect">
+                    <button id="button" type="button" value="click" onclick="connect()">Connect</button>
+                    <p>Is battery connected? <em id="isBattery">No</em></p>
+                </div>
+                <div class="power">
+                    <i id="until" class="fa fa-power-off"></i>
+                    <button id="offall" type="button" value="click" onclick="off()">Off</button>
+                    <p>Is switch on? <em id="isSwitchOn">No</em></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="main">
+            <div class="minor">
+                <div class="light">
+                    <i id="fasbattery" class='fas fa-fan'></i>
+                </div>
+                <div class="battery">
+                    <p>Fan is on</p>
+                    <i id="fabattery" class="fa fa-battery-full"></i>
+                </div>
+                <div class="connect">
+                    <button id="charge" type="button" class="connectbattery" value="click" onclick="batteryConnect()">Connected Battery</button>
+                    <p>Is battery connected? <em id="batteryon">No</em></p>
+                </div>
+                <div class="power">
+                    <i id="plug" class="fa fa-plug"></i>
+                    <button id="change" type="button" class="connectpower" value="click" onclick="turnOnCharger()">Connect Power</button>
+                    <p>Is power connected? <em id="poweron">No</em></p>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+    
+</body>
+</html>
