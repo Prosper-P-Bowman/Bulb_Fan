@@ -19,7 +19,6 @@ function connect(){
 
     document.getElementById("isBattery").innerHTML = "Yes";
     document.getElementById("isSwitchOn").innerHTML = "No";
-    
 }
 
 // turn off
@@ -66,7 +65,7 @@ function batteryConnect(){
 // turning on connected power
 
 function turnOnCharger(){
-    
+
     const onCharger = document.getElementById("change");
     onCharger.style.color = "burlywood";
     onCharger.style.backgroundColor = "white";
@@ -79,5 +78,4 @@ function turnOnCharger(){
     document.getElementById("plug").style.color="green";
     document.getElementById("poweron").innerHTML = 'Yes';
     document.getElementById("fabattery").style.color = "rgba(255, 255, 255, 0.76)";
-
 }
